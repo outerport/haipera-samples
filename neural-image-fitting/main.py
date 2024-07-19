@@ -11,10 +11,10 @@ from PIL import Image
 data_path = 'data/sample.jpg'
 
 learning_rate = 0.001
-num_epochs = 100
+num_epochs = 5
 batch_size = 1024
 num_layers = 2
-hidden_size = 128
+hidden_size = 64
 
 def coordinate_grid(h: int, w: int):
     x = torch.linspace(-1, 1, w)
