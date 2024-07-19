@@ -6,8 +6,12 @@ Sample codebases for use with https://github.com/haipera/haipera
 
 First install `haipera` (refer to the main repo for more detailed instructions!)
 
-`pip install haipera`
+```
+pip install haipera
+```
 
 Then, try running a script!
 
-`haipera run neural-image-fitting/main.py`
+```
+haipera run neural-image-fitting/main.py
+```
